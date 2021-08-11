@@ -12,8 +12,7 @@ public class MainActivity extends AppCompatActivity {
     int result;
     static int getRandomNumber(int max, int min)
     {
-        return (int)((Math.random()
-                * (max - min)) + min);
+        return (int)((Math.random() * (max - min)) + min);
     }
 
     public void makeToast(String str)
@@ -36,16 +35,13 @@ public class MainActivity extends AppCompatActivity {
                         .getText()
                         .toString());
         if (userGuessing < result) {
-
             makeToast("You guessed too small! Try Again");
         }
         else if (userGuessing > result) {
             makeToast("You guesses too high! Try Again");
         }
         else {
-            makeToast(
-                    "Congratulations,"
-                            +" You Got the Number");
+            makeToast("Congratulations," + " You Got the Number");
         }
     }
 
