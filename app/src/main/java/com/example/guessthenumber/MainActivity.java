@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                         .getText()
                         .toString());
         if (userGuessing < result) {
-            makeToast("You guessed too small! Try Again");
+            makeToast("You_guessed_too_small! Try_Again");
         }
         else if (userGuessing > result) {
             makeToast("You guesses too high! Try Again");
