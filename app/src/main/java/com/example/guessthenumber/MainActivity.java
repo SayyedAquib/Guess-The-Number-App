@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             makeToast("You_guessed_too_small! Try_Again");
         }
         else if (userGuessing > result) {
-            makeToast("You guesses too high! Try Again");
+            makeToast("You_guesses_too_high!_Try Again");
         }
         else {
             makeToast("Congratulations," + " You Got the Number");
